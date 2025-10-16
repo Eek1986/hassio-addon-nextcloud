@@ -25,7 +25,9 @@
         "NEXTCLOUD_ADMIN_PASSWORD": "",
         "NEXTCLOUD_TRUSTED_DOMAINS": "homeassistant.local",
         "TRUSTED_PROXIES": "127.0.0.1 172.30.33.0/24 192.168.1.1",
-        "OVERWRITEHOST": ""
+        "OVERWRITEHOST": "",
+        "OVERWRITEPROTOCOL": "https",
+        "OVERWRITECLIURL": "",
     },
     "schema": {
         "MYSQL_DATABASE": "str?",
@@ -37,6 +39,8 @@
         "NEXTCLOUD_TRUSTED_DOMAINS": "str?",
         "TRUSTED_PROXIES": "str?",
         "OVERWRITEHOST": "str?"
+        "OVERWRITEPROTOCOL": "str?",
+        "OVERWRITECLIURL": "str?",
     },
     "arch": [
         "aarch64",
