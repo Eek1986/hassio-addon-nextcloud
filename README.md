@@ -59,6 +59,13 @@ TRUSTED_PROXIES: 127.0.0.1 172.30.33.0/24 192.168.1.1   # Allowed origin ip of p
 This list is not exhaustive. The documentation for env variables can be found at https://github.com/docker-library/docs/blob/master/nextcloud/README.md#auto-configuration-via-environment-variables.
 Do not forget to map a port to your host.
 
+## For reverse proxy on Keenetic device
+If use Keenetic router as reverse proxy, when add option for http proxy with CLI
+```yaml
+ip http proxy mynextcloud preserve-origin
+system configuration save
+```
+
 ## Start
 
 - Start the addon. Wait a while and check the log for any errors.
