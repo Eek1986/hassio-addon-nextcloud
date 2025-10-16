@@ -1,6 +1,6 @@
 {
     "name": "Nextcloud",
-    "version": "0.0.1 (32.0.0)",
+    "version": "32.0.0",
     "slug": "nextcloud",
     "description": "Self-hosted file share and collaboration platform on the web",
     "startup": "services",
