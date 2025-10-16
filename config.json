@@ -35,7 +35,7 @@
         "NEXTCLOUD_ADMIN_USER": "str",
         "NEXTCLOUD_ADMIN_PASSWORD": "str",
         "NEXTCLOUD_TRUSTED_DOMAINS": "str",
-        "TRUSTED_PROXIES": "str".
+        "TRUSTED_PROXIES": "str",
         "OVERWRITEHOST": "str"
     },
     "arch": [
